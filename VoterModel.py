@@ -1,3 +1,5 @@
+__author__ = "Ruoyun Huang"
+
 import itertools
 import random
 
