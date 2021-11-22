@@ -1,13 +1,7 @@
-vehicle = ["RACE", "TM", "GM", "HMC", "F", "MZDAY", "FUJHY", "TSLA", "NIO"]
-
-battery = ["JCI", "PLUG", "ENPH", "ENS", "BLDP", "ENR", "ALB", "LAC", "QS", "FCEL", "LTHM", "RUN", "ADN", "BE", "CMI", "TSLA"]
-
-AI = ["NVDA", "GOOG", "AMZN", "MSFT", "IBM", "FB", "DOCU", "TSM", "ABB", "NICE", "IT", "MTRN", "TSLA"]
-
 stocks = {"Vehicle": ["RACE", "TM", "GM", "HMC", "F", "MZDAY", "FUJHY", "TSLA", "NIO", "GOOG"],
           "Battery": ["JCI", "PLUG", "ENPH", "ENS", "BLDP", "ENR", "ALB", "LAC", "QS",
                       "FCEL", "LTHM", "RUN", "ADN", "BE", "CMI", "TSLA", "TM"],
-          "AI": ["NVDA", "GOOG", "AMZN", "MSFT", "IBM", "FB", "DOCU", "TSM", "ABB", "NICE", "IT", "MTRN", "TSLA"]
+          "AI": ["NVDA", "GOOG", "AMZN", "MSFT", "IBM", "FB", "DOCU", "TSM", "ABB", "NICE", "IT", "MTRN", "TSLA", "GM"]
           }
 
 opinions = {"RACE": 0, "TM": 1, "GM": 1, "HMC": 1, "F": 1, "MZDAY": 0, "FUJHY": 0, "TSLA": 0, "NIO": 1,
@@ -40,13 +34,13 @@ individual_return = {"RACE": -1.4446 / 100, "TM": 2.7184 / 100, "GM": 7.8965 / 1
                      "IBM": -4.06 / 100, "FB": -1.02 / 100, "DOCU": -1.21 / 100, "TSM": 0.25 / 100,
                      "ABB": 1.04 / 100, "NICE": 12.17 / 100, "IT": -0.71 / 100, "MTRN": -3.10 / 100}
 
-market_return = {"vehicle": -0.2440 / 100, "battery": -0.1105 / 100, "AI": -0.0838 / 100}
+market_return = {"vehicle": -0.2440 / 100, "battery": -0.4916 / 100, "AI": -0.0330 / 100}
 
-beta = {"RACE": 0.750308019, "TM": 1.235676396, "GM": 1.54488421, "HMC": 0.2049761576, "F": -0.063686539,
-        "MZDAY": 0.4282436519, "FUJHY": 0.561361171, "TSLA": 1.014008215, "NIO": 0.5101773485,
+beta = {"RACE": 0.750308019, "TM": 1.235676396, "GM": 1.205100267, "HMC": 0.2049761576, "F": -0.063686539,
+        "MZDAY": 0.4282436519, "FUJHY": 0.561361171, "TSLA": 1.153195907, "NIO": 0.5101773485,
         "JCI": -0.3791704495, "PLUG": 1.073048302, "ENPH": 1.074271757, "ENS": -0.4967900594, "BLDP": 2.039913889,
         "ENR": -0.01621442147, "ALB": 0.6225144537, "LAC": 0.9991115636, "QS": 3.734525005, "FCEL": 2.171081637,
         "LTHM": 0.4154730946, "RUN": 1.419189418, "ADN": 0.8352030175, "BE": -0.02203225884, "CMI": 0.9390286858,
-        "NVDA": 2.07707527, "GOOG": 0.9544587771, "AMZN": 0.8175532981, "MSFT": 0.8713164626, "IBM": 0.2916562843,
-        "FB": 1.518800002, "DOCU": 3.133023479, "TSM": 1.124049508, "ABB": 0.5906719054, "NICE": 0.8680238364,
-        "IT": 0.9453825028, "MTRN": 0.6498873716}
+        "NVDA": 2.024084105, "GOOG": 0.9017046103, "AMZN": 0.6546124501, "MSFT": 0.8413463478, "IBM": 0.3788774985,
+        "FB": 1.478185803, "DOCU": 2.871929831, "TSM": 0.9985779658, "ABB": 0.5459924202, "NICE": 0.8621046834,
+        "IT": 0.8068883191, "MTRN": 0.6703770424}
