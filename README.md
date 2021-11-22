@@ -8,5 +8,4 @@ pip install sklearn
 pip install networkX[default]  
 pip install ndlib  
 ```
-## Contributor
-Ruoyun Huang
+

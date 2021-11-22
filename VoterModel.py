@@ -49,7 +49,9 @@ class VoterModel:
 
 
 if __name__ == '__main__':
-    vm = VoterModel([["stock1", "stock3", "stock5", "stock6"],
-                     ["stock1", "stock2", "stock4", "stock7"]])
+    vm = VoterModel([["stock1", "stock3", "stock5", "stock6", "h"],
+                     ["stock1", "stock2", "stock4", "stock7"],
+                     ["h", "a", 'b']])
+    vm.draw_opinion_graph()
     vm.iterate(3)
     vm.draw_opinion_graph()
