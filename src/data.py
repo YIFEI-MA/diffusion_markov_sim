@@ -1,4 +1,4 @@
-stocks = {"Vehicle": ["RACE", "TM", "GM", "HMC", "F", "MZDAY", "FUJHY", "TSLA", "NIO", "GOOG"],
+stocks = {"Vehicle": ["RACE", "TM", "GM", "HMC", "F", "MZDAY", "FUJHY", "TSLA", "NIO"],
           "Battery": ["JCI", "PLUG", "ENPH", "ENS", "BLDP", "ENR", "ALB", "LAC", "QS",
                       "FCEL", "LTHM", "RUN", "ADN", "BE", "CMI", "TSLA", "TM"],
           "AI": ["NVDA", "GOOG", "AMZN", "MSFT", "IBM", "FB", "DOCU", "TSM", "ABB", "NICE", "IT", "MTRN", "TSLA", "GM"]
